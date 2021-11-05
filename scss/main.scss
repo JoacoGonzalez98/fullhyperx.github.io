@@ -1,0 +1,345 @@
+html {
+    font-size: 90%;
+}
+
+.c-blanco{
+    color:white;
+}
+.c-gris{
+    color: #868A8C;
+}
+
+#page-top{
+    position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+}
+
+    
+.nav-bar-logo{
+    width: 250px;
+    height: auto;
+}
+
+.form-control-width{
+    width: 1000px;
+}
+#submit{
+    color: #fff;
+    background-color: #972938;
+	border-color: #972938;
+}
+
+.img-fondo{
+width: 100%;
+height: 100%;
+}
+
+.centrado{
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+body {
+    background-color: #f5f3f3;
+}
+body::-webkit-scrollbar {
+    width: 7px;
+    background: #181818;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #717171;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: white;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+h2 a {
+	text-decoration: none;
+	color: black;
+}
+h2 a:hover {
+	color:#e44e52;
+}
+.borrar-producto {
+    /* background-color: #000; */
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.borrar-producto:hover {
+	color: #000;
+}
+
+ul {
+    list-style: none;
+}
+#hero {
+    background-image:url(../img/hero.webp);
+    height: 350px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.imagen-producto {
+	max-width: 100%
+}
+
+nav form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+form input {
+    max-width: 60vw;
+}
+
+#encabezado {
+    margin: 30px 0;
+}
+.encabezado {
+	color: black;
+    background-color: #e1e1e1;
+    font-weight: 900;
+}
+
+.imagen-carrito{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+.submenu{
+    position: relative;
+}
+
+#carrito{
+    display: none;
+	border-radius: 25px;
+    overflow: scroll;
+    height:500px;
+    width:500px;
+    position: absolute;
+    right:0;
+    top:200%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-width: 300px;
+}
+#carrito::-webkit-scrollbar {
+    width: 7px;
+    background: #fff;
+    border-radius: 10px;
+}
+#carrito::-webkit-scrollbar-thumb {
+    background-color: #717171;
+    border-radius: 10px;
+}
+tbody img {
+	width: 100%;
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
+	color: white;
+	background-color: #972938;
+	border-color: #972938;
+    height: 100%;
+	margin-top: 1rem;
+	padding: .25rem 2rem;
+}
+
+.barra p {
+    margin:0;
+    color: white;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom:0;
+    }
+}
+
+.titulo-tienda{
+    width: 1050px;
+    text-align: center;
+    color: #E21735;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#lista-productos {
+    display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+	grid-gap: 2rem;
+	justify-content: center;
+    margin-bottom:20px;
+    filter: drop-shadow(black 1px 3px 3px);
+}
+
+.imagen-prod {
+	overflow: hidden;
+}
+.cerrar{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.agregar-carrito {
+    margin:10px 0;
+}
+
+#buscador {
+	color: black;
+}
+
+.card {
+    border: 1px solid #E1E1E1;
+    background: white;
+    overflow: hidden;
+    width: 100%;
+    transition: all 250ms;
+    position:relative;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.info-card  {
+    padding: 10px 20px;
+    filter: drop-shadow(black 0px 0px 1px);
+}
+a.agregar-carrito {
+	background-color: #972938!important;
+	border-color: #972938!important;
+}
+
+.info-card p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: right;
+    font-weight: 700;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.contenedor-texto .titulo {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.contenedor-texto .perifericos {
+    font-weight: bold;
+    color: #E21735;
+    font-style: normal;
+}
+
+.contenedor-texto p {
+    margin-bottom: 40px;
+    line-height: 36px;
+}
+
+.error{
+    height: 100vh;
+    color: #141414;
+    padding: 100px;
+}
+
+/* mods*/
+.barra-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5rem;
+    list-style: none;
+    background: black;
+}
+
+.barra-nav li {
+    margin: 0;
+}
+
+.barra-nav li a img {
+    width: clamp(12rem, 9vw, 22rem);
+}
+
+#img-carrito {
+    width: clamp(2rem, 2vw, 4rem);
+}
+
+.titulo-tienda {
+    text-align: center;
+    color: #e21735;
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(2rem, 2.5vw, 4rem);
+}
+
+.contenedor-texto .titulo {
+    font-size: clamp(2rem, 3.5vw, 5rem);
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.copyright {
+    background-color: #000;
+}

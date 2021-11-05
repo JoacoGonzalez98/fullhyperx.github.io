@@ -1,0 +1,114 @@
+[
+	{
+		"imagen": "img/producto1.jpg",
+		"nombre": "Cloud II",
+		"precio": "33000",
+		"categoria": "auriculares",
+		"id": 1
+	},
+	{
+		"imagen": "img/producto2.jpg",
+		"nombre": "Cloud Orbit S",
+		"precio": "42000",
+		"categoria": "auriculares",
+		"id": 2
+	},
+	{
+		"imagen": "img/producto3.jpg",
+		"nombre": "Cloud Flight",
+		"precio": "14500",
+		"categoria": "auriculares",
+		"id": 3
+	},
+	{
+		"imagen": "img/producto4.jpg",
+		"nombre": "Cloud Flight S",
+		"precio": "16500",
+		"categoria": "auriculares",
+		"id": 4
+	},
+	{
+		"imagen": "img/producto5.jpg",
+		"nombre": "QuadCast S",
+		"precio": "21900",
+		"categoria": "microfonos",
+		"id": 5
+	},
+	{
+		"imagen": "img/producto6.jpg",
+		"nombre": "SoloCast",
+		"precio": "8250",
+		"categoria": "microfonos",
+		"id": 6
+	},
+    {
+		"imagen": "img/producto7.jpg",
+		"nombre": "QuadCast",
+		"precio": "16500",
+		"categoria": "microfonos",
+		"id": 7
+	},
+    {
+		"imagen": "img/producto8.jpg",
+		"nombre": "Alloy FPS Pro",
+		"precio": "21000",
+		"categoria": "teclados",
+		"id": 8
+	},
+    {
+		"imagen": "img/producto9.jpg",
+		"nombre": "Alloy Origins",
+		"precio": "12800",
+		"categoria": "teclados",
+		"id": 9
+	},
+    {
+		"imagen": "img/producto10.jpg",
+		"nombre": "Alloy Origins 60",
+		"precio": "13700",
+		"categoria": "teclados",
+		"id": 10
+	},
+    {
+		"imagen": "img/producto11.jpg",
+		"nombre": "Pulsefire Haste",
+		"precio": "5100",
+		"categoria": "mouses",
+		"id": 11
+	},
+    {
+		"imagen": "img/producto12.jpg",
+		"nombre": "Pulsefire Dart",
+		"precio": "9000",
+		"categoria": "mouses",
+		"id": 12
+	},
+    {
+		"imagen": "img/producto13.jpg",
+		"nombre": "Pulsefire Core RGB",
+		"precio": "2800",
+		"categoria": "mouses",
+		"id": 13
+	},
+    {
+		"imagen": "img/producto14.jpg",
+		"nombre": "Pulsefire Raid",
+		"precio": "4380",
+		"categoria": "mouses",
+		"id": 14
+	},
+    {
+		"imagen": "img/producto15.jpg",
+		"nombre": "Fury Ultra",
+		"precio": "8800",
+		"categoria": "mousepads",
+		"id": 15
+	},
+    {
+		"imagen": "img/producto16.jpg",
+		"nombre": "Fury S XL",
+		"precio": "3790",
+		"categoria": "mousepads",
+		"id": 16
+	}
+]
